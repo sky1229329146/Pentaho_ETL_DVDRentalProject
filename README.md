@@ -1,5 +1,5 @@
-# Penteho_ETL_DVDRentalProject
-## 项目名称
+＃Pentaho_ETL_DVDRentalProject
+##项目名称
 基于sakila数据库的DVD在线租赁项目
 
 ## 项目介绍
@@ -31,6 +31,6 @@
 1.生成和加载静态变化维度表dim_time和dim_data
 2.生成和加载缓慢变化维度表dim_store,dim_address,dim_staff,dim_film,dim_actor,dim_customer
 3.生成和加载事实表dim_factal_rental
-
+4.
 
 
