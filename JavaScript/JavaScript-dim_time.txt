@@ -1,0 +1,14 @@
+//生成12小时格式
+var hours12= hours24.getInteger()%12;
+
+var am_pm = hours24.getInteger()>12?"PM":"AM";
+
+
+//time
+var time = hours24.getInteger() + ":" + minutes.getInteger() + ":" + seconds.getInteger();
+
+//time_key
+
+var time_key = (hours24.getInteger()<10?"0":"")+hours24.getInteger()+
+				(minutes.getInteger()<10?"0":"")+minutes.getInteger()+
+				(seconds.getInteger()<10?"0":"")+seconds.getInteger();
